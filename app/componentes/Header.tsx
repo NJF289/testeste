@@ -1,5 +1,5 @@
 export default function Header() {
     <div>
-        <h1>testes 2</h1>
+        <h1>testes </h1>
     </div>
 }
