@@ -14,9 +14,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    return (
+      <html lang="en">
+        <body className="bg-[#3d3d3d] text-white text-center max-w-[1440px] mx-auto">{children}</body>
+      </html>
   );
 }
